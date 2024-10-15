@@ -22,6 +22,12 @@ const UploadPage = () => {
         }
         <CldUploadWidget 
             uploadPreset='anbe2odw'
+            options={{
+                sources: ['local'],
+                maxFiles: 5,
+                multiple: true,
+                styles: {}
+            }}
             onSuccess={(result) => {
                 if (result.event !== 'success') {
                     return;
