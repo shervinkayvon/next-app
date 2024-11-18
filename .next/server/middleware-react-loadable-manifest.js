@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"app/page.tsx -> lodash\":{\"id\":\"app/page.tsx -> lodash\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_lodash_lodash_js.js\"]}}"
